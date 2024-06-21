@@ -21,3 +21,10 @@ plot_model2 <- function(data) {
     geom_point(aes(x = Temp, y = Wind)) +
     theme_gray(24)
 }
+
+save_tar_visnetwork_output <- function() {
+  network_html_object = tar_visnetwork()
+  htmlwidgets::saveWidget(network_html_object, "tar_visnetwork.html")
+  webshot2::webshot("tar_visnetwork.html", "tar_visnetwork.png",
+                    expand = c(0, 100, 0, 0))
+}

@@ -58,5 +58,8 @@ list(
   tar_target(model, fit_model(data)),
   tar_target(plot, plot_model(model, data), description = "First plotting function."),
   tar_target(plot2, plot_model2(data),
-             description = "Second plotting function.")
+             description = "Second plotting function."),
+  tar_target(tar_visnetwork_output,
+             save_tar_visnetwork_output(),
+             format = "file")
 )
