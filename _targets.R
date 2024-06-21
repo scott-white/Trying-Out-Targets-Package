@@ -56,5 +56,7 @@ list(
   tar_target(file, "data.csv", format = "file"),
   tar_target(data, get_data(file)),
   tar_target(model, fit_model(data)),
-  tar_target(plot, plot_model(model, data))
+  tar_target(plot, plot_model(model, data), description = "First plotting function."),
+  tar_target(plot2, plot_model2(data),
+             description = "Second plotting function.")
 )
