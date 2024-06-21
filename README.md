@@ -3,8 +3,11 @@
 
 # Key functions it exposed me to
 
-Interactive functions
+##Interactive functions
 - `use_targets`: Used to setup the `_targets.R` file.
+  - name: Name of output/input object.
+  - command: Code to run in this part of the pipeline. Good practice is a function call but can be anything.
+  - description: Description of pipeline step.
 - `tar_manifest`: Lists information about each target.
 - `tar_visnetwork`: Visualized the pipeline.
 - `tar_outdated`: Returns (as a string) which targets are outdated.
