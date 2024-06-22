@@ -38,3 +38,7 @@ Caused by error in `startup()`:
 
 The eventual solution to this problem was to install the chrome webbrowser and then it worked as intended. Prior to installing chrome, the function `find_chrome` was unable to run the executable associated with the Arc browser (my Mac browser of choice) due to the SingletonLock file. That is a problem for another day.
 
+
+## Useful Links
+- Nice tutorial on why you should learn this package: https://wlandau.github.io/targets-tutorial
+- Package reference site: https://docs.ropensci.org/targets/index.html

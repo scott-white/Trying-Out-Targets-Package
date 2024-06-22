@@ -1,12 +1,12 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-data|stem|713f90023617adf8|14c0abc3329ce191|c40ee6b8f08104ac|33550471||t19895.1937726537s|fe4eda7fef1b1c7e|1003|rds|local|vector|||0.103||
+data|stem|713f90023617adf8|14c0abc3329ce191|c40ee6b8f08104ac|33550471||t19896.198433664s|fe4eda7fef1b1c7e|1003|rds|local|vector|||0.1||
 file|stem|456396629a8a2ffb|78ba1f949d516b2f|2c530c1562a7fbd1|1735323524|data.csv|t19895.1933745859s|8f9a6d8eb8c07a71|1884|file|local|vector|||0.15|package readr was built under R version 4.2.3. package dplyr was built under R version 4.2.3. package ggplot2 was built under R version 4.2.3|
 fit_model|function|3f3c9d2e5cf2eb2b|||||||||||||||
 get_data|function|5173fe1c70ec019f|||||||||||||||
-model|stem|8484f3acaa319239|122b7dd8ec340fb3|607009b9569f193c|808688450||t19895.1937728891s|9b43f3e0f172ee04|111|rds|local|vector|||0.004||
-plot|stem|d14fc0fcb4486dc7|e9da12e55abf4572|2ea4abeaf4388e20|874984291||t19895.1937733824s|f008d100c11628bb|92929|rds|local|vector|||0.01||
+model|stem|8484f3acaa319239|122b7dd8ec340fb3|607009b9569f193c|808688450||t19896.198434231s|9b43f3e0f172ee04|111|rds|local|vector|||0.004||
+plot|stem|62640537861e58e7|e9da12e55abf4572|2ea4abeaf4388e20|874984291||t19896.1984346105s|334de0ce99165196|94260|rds|local|vector|||0.003||
 plot_model|function|c5d6a8a17330a2fd|||||||||||||||
 plot_model2|function|54d11f44d7f8186f|||||||||||||||
-plot2|stem|7503168b0f5388f2|ce013c150d76af22|61d208847ba5448d|-1544046761||t19895.2093415831s|a12b94054a72a2e1|90348|rds|local|vector|||0.009||
+plot2|stem|42d606494f173175|ce013c150d76af22|61d208847ba5448d|-1544046761||t19896.198434101s|8341df6d207f15d5|91224|rds|local|vector|||0.008||
 save_tar_visnetwork_output|function|976b1a1bb18d4273|||||||||||||||
 tar_visnetwork_output|stem|c126374f0cc9ca9a|3241768f0b81f48e|b06e6958517ca3bc|-2022408343|/Users/scott/Library/CloudStorage/Dropbox/Coding/R/Unknown Eventual Location/Trying-Out-Targets-Package/tar_visnetwork.png|t19895.2693945927s|826d2744ce0ea4c2|41142|file|local|vector|||3.232|package readr was built under R version 4.2.3. package dplyr was built under R version 4.2.3. package ggplot2 was built under R version 4.2.3|
